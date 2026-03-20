@@ -1,1 +1,10 @@
+# Dockerized Node App
 
+## Steps
+1. Create Dockerfile
+2. Build image
+3. Run container
+
+```bash
+docker build -t nodeapp .
+docker run -p 3000:3000 nodeapp
