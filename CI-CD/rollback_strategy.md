@@ -10,3 +10,19 @@ Revert to previous stable version
 ## Example
 ```bash
 git checkout <previous_commit>
+
+
+---
+
+## ➕ `artifact_management.md`
+```markdown
+# Artifact Management
+
+Artifacts = build outputs (jar, docker image)
+
+## Tools
+- Nexus
+- Artifactory
+
+## Flow
+Build → Store → Deploy
