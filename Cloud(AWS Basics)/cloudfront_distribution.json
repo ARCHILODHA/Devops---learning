@@ -1,0 +1,17 @@
+{
+  "CallerReference": "my-dist",
+  "Origins": {
+    "Items": [
+      {
+        "Id": "S3-origin",
+        "DomainName": "mybucket.s3.amazonaws.com"
+      }
+    ],
+    "Quantity": 1
+  },
+  "DefaultCacheBehavior": {
+    "TargetOriginId": "S3-origin",
+    "ViewerProtocolPolicy": "redirect-to-https"
+  },
+  "Enabled": true
+}
