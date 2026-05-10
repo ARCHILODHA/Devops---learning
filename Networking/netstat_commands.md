@@ -1,0 +1,3 @@
+# Netstat Commands
+
+netstat -tulnp
