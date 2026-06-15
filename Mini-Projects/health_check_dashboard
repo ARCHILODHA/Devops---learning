@@ -1,0 +1,17 @@
+# Health Check Dashboard
+
+Simple dashboard displaying server health metrics.
+
+## Features
+- CPU usage
+- Memory usage
+- Disk usage
+- Service status
+
+## Technologies
+- Bash
+- HTML
+- CSS
+
+## Usage
+Generate metrics and open dashboard.html
