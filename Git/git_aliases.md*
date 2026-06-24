@@ -1,0 +1,15 @@
+
+# Git Aliases
+
+## Create Alias
+
+```bash
+git config --global alias.st status
+
+Examples
+git config --global alias.co checkout
+git config --global alias.br branch
+git config --global alias.cm commit
+Usage
+git st
+git co main
