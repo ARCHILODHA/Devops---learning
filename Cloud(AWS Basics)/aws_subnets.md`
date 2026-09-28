@@ -1,0 +1,27 @@
+
+# AWS Subnets
+
+## Overview
+
+A subnet is a logical subdivision of an AWS VPC IP address range.
+
+## Types
+
+### Public Subnet
+
+Resources can have a route to the internet through an Internet Gateway.
+
+### Private Subnet
+
+Resources do not have a direct route to the Internet Gateway.
+
+## Example
+
+```text
+VPC: 10.0.0.0/16
+
+Public Subnet:
+10.0.1.0/24
+
+Private Subnet:
+10.0.2.0/24
