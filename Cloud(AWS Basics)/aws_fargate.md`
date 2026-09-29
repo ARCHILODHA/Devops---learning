@@ -1,0 +1,21 @@
+
+# AWS Fargate
+
+## Overview
+
+AWS Fargate is a serverless compute engine for containers.
+
+It allows users to run containers without managing the underlying EC2 servers.
+
+## How It Works
+
+```text
+Docker Image
+     |
+    ECR
+     |
+ECS / EKS
+     |
+  Fargate
+     |
+Container
